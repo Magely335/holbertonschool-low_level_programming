@@ -4,8 +4,7 @@
 /**
  * main - Entry point
  *
- *
- * Return: o;
+ * Return: 0;
  *
  */
 
@@ -21,15 +20,15 @@ int main(void)
 
 	if(last_num > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5"\n)
+		printf("Last digit of %d is %d and is greater than 5\n")
 	}
 	if(last_num == 0)
 	{
-		printf("Last digit of %d is %d and is 0"\n)
+		printf("Last digit of %d is %d and is 0\n")
 	}
 	if(last_num < 6)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0"\n)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n")
 	}
 
 	return (0);
