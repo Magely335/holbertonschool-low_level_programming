@@ -1,6 +1,4 @@
-/*
- * File: 4-puts.c
- * Auth: Magely Nunez Rodriguez <7380@holbertonschool.com> 
+/* 
  */
 
 #include <stdio.h>
