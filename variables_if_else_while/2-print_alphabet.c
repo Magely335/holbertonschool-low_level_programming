@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry poiny
+ *main - Entry point
  *
  * Return: 0
  *
@@ -16,6 +16,6 @@ int main(void)
 		putchar (alpha);
 	}
 
-	putchar ('\n')
+	putchar ('\n');
 	return (0);
 }
