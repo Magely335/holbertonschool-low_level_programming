@@ -1,10 +1,9 @@
 /*
- * 
- *
+ * File: 4-puts.c 
+ * Auth: Magely M. Nunez Rodriguez 
  */
 
 #include <stdio.h>
-
 
 /**
  *
