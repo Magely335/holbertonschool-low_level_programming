@@ -13,9 +13,12 @@ int main(void)
 
 	for (num = 0; num <= 15; num++)
 	{
-		putchar ("%x",num);
+		while (num + 15)
+		{
+			printf ("%x", num);
+		}
 	}
-	
-	putchar ('\n');
+
+	printf ('\n');
 	return (0);
 }
