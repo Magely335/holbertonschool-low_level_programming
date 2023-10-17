@@ -5,7 +5,6 @@
  *
  * Return: 0
  *
- *
  */
 
 int main(void)
@@ -14,9 +13,9 @@ int main(void)
 
 	while (num = 0; num < 10; num++)
 	{
-		putchar(num + 0);
+		putchar(num + '0');
 
-		if (num < 0)
+		if (num < 9)
 		{
 			putchar (num);
 		}
