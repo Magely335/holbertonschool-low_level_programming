@@ -13,10 +13,7 @@ int main(void)
 
 	for (num = 0; num <= 15; num++)
 	{
-		while (num + 15)
-		{
-			printf ("%x", num);
-		}
+		printf (num + '0');
 	}
 
 	printf ('\n');
