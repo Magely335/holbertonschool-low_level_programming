@@ -18,6 +18,8 @@ int main(void)
 		if (num < 9)
 		{
 			putchar (num);
+			putchar (',');
+			putchar (' ');
 		}
 	}
 
