@@ -9,13 +9,16 @@
 
 int main(void)
 {
-	int num;
-
-	for (num = 0; num <= 15; num++)
+	for (char num = '0'; num <= '9'; num++)
 	{
-		printf (num + '0');
+		putchar (num);
 	}
 
-	printf ('\n');
+	for (char num = 'a'; num <= 'f'; num++)
+	{
+		putchar (num);
+	}
+	
+	putchar ('\n');
 	return (0);
 }
