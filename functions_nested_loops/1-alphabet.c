@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.c"
 
 /**
  * main - Entry Point
@@ -6,8 +6,6 @@
  * Return: 0
  *
  */
-
-int main(void)
 {
 	char alpha;
 
