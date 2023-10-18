@@ -9,6 +9,8 @@
 
 int main(void)
 {
+	char _putchar;
+
 	printf (_putchar);
 
 	printf ('\n');
