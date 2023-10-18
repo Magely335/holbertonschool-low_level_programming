@@ -10,14 +10,6 @@
 
 int main(void)
 {
-	char str[] = "_putchar";
-
-	printf("%s\n", str);
-
-	int lenght = 0;
-	lenght = strlen(str);
-
-	putchar ('\n');
-
+	printf ("_putchar\n");
 	return (0);
 }
