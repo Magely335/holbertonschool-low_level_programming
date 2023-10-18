@@ -3,7 +3,7 @@
 /**
  *main - Entry Point
  *
- * Return: (0)
+ * Return: 0
  *
  */
 
@@ -11,7 +11,7 @@ int main(void)
 {
 	char str[] = "_putchar";
 
-	printf ('\n');
+	putchar ('\n');
 
 	return (0);
 }
