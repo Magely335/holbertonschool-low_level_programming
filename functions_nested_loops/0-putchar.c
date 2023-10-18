@@ -14,7 +14,10 @@ int main(void)
 
 	printf("%s\n", str);
 
-	putchar('\n');
+	int lenght = 0;
+	lenght = strlen(str);
 
-	return(0);
+	putchar ('\n');
+
+	return (0);
 }
