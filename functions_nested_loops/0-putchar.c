@@ -12,9 +12,9 @@ int main(void)
 {
 	char str[] = "_putchar";
 
-	printf ("%s\n", str);
+	printf("%s\n", str);
 
-	putchar ('\n');
+	putchar('\n');
 
-	return (0);
+	return(0);
 }
