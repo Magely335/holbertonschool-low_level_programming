@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * @n: checks value
- * print_sign - Enry point
+ * print_sign - Prints the sign number.
+ *@n: the number of which the sign will be printed.
  *
  * Return: 1 if greater than zero, 0 if zero and -1 if less than zero
  *
