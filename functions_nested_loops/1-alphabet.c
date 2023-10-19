@@ -1,23 +1,19 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - Entry Point
- *
- * Return: 0
- *
- */
-
+  * print_alphabet - Make the alphabet
+  *
+  * Return: void
+  */
 void print_alphabet(void)
 {
-	char alpha;
+	char c;
 
-	for (alpha = 'a'; alpha <= 'y'; alpha++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar (alpha);
+		_putchar(c);
 	}
 
-	putchar ('z');
-	putchar ('\n');
-
+	_putchar('\n');
 	return (0);
 }
