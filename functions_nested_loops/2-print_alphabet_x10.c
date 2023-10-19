@@ -8,14 +8,11 @@
  *
  */
 
-void print_alphabet_x10(void)
-{
-	char alpha;
-
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-	{
-		putchar (alpha + '0');
-	}
-
-	putchar ('\n');
+void print_alphabet_x10(void) {
+    for (int i = 0; i < 10; i++) {
+        for (char c = 'a'; c <= 'z'; c++) {
+            putchar(c);
+        }
+        putchar('\n');
+    }
 }
