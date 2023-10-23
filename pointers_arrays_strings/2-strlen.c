@@ -2,7 +2,9 @@
 
 /**
  * _strlen - returns the length of a string
- * @s: var for the length
+ * @s: string to evaluate.
+ *
+ * Return: the length of the string.
  *
  */
 
@@ -15,5 +17,5 @@ int _strlen(char *s)
 		length++;
 		s++;
 	}
-	return length;
+	return (length);
 }
