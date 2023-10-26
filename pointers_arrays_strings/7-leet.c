@@ -23,8 +23,8 @@ char *leet(char *s)
 				(letter == 'l' || letter == 'L'))
 		{
 			*s = '4' * (letter == 'a' ||
-					letter == 'A') + '3' *
-				(letter == 'e' || 
+				letter == 'A') + '3' *
+				(letter == 'e' ||
 				 letter == 'E') + '0' *
 				(letter == 'o' ||
 				 letter == 'O') + '7' *
